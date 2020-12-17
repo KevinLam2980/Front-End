@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import SearchBar from '../common/SearchBar'
 import CityCard from '../common/CityCard'
 import Title from '../common/Title'
-import { getCLIArray } from '../../helper/dataProperties'
+// import { getCLIArray } from '../../helper/dataProperties'
 import Loader from 'react-loader-spinner'
 
 const initialState = {

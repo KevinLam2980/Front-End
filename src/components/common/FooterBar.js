@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import Styled from 'styled-components'
 import ComparePlaceHolder from '../common/ComparePlaceHolder'
-import { PropertySafetyFilled } from '@ant-design/icons'
 import CityCard from './CityCard'
 import { connect } from 'react-redux'
 
@@ -82,7 +81,7 @@ const FooterBar = props => {
       document.querySelector('#footerBar').classList.add('hidden')
       document.querySelector('#footerToggle').classList.add('buttonToggle')
     }
-    if (location.pathname == '/') {
+    if (location.pathname === '/') {
       document.querySelector('#footerBar').classList.remove('hidden')
       document.querySelector('#footerToggle').classList.remove('buttonToggle')
     }

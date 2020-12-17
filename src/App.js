@@ -12,6 +12,7 @@ import { connect } from 'react-redux'
 const App = props => {
   useEffect(() => {
     props.getCities()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (

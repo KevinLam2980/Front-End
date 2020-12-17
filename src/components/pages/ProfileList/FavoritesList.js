@@ -6,6 +6,8 @@ import FavoriteDetails from './FavoriteDetails'
 const FavoritesList = props => {
   useEffect(() => {
     props.getUserData()
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   console.log(props)

@@ -25,11 +25,11 @@ const useStyles = makeStyles(theme => ({
 
 export default function PopulationSelect(props) {
   const classes = useStyles()
-  const [age, setAge] = React.useState('')
+  // const [age, setAge] = React.useState('')
 
-  const handleChange = event => {
-    setAge(event.target.value)
-  }
+  // const handleChange = event => {
+  //   setAge(event.target.value)
+  // }
 
   return (
     <StyledPopulation>

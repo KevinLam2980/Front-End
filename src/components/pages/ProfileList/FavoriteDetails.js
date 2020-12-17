@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 //import { useParams, useHistory } from "react-router-dom";
-//import { Button, Form, Label, Input, Row, Col } from 'reactstrap';
-import { CardBody, CardTitle, CardText, CardImg } from 'reactstrap'
+//import { Button, Form, Label, Input, Row, Col, CardTitle, CardText, CardImg } from 'reactstrap';
+import { CardBody } from 'reactstrap'
 import CityCard from '../../common/CityCard'
 
 export default function FavoriteDetails(props) {
   const { user } = props
-  const { city } = props
+  // const { city } = props
   //const [post, setPost] = useState();
   //const [edit, setEdit] = useState(false);
   //const { id } = useParams()

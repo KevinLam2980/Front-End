@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-function getCostOfLivingBreakpoints(CLIArray) {}
+// function getCostOfLivingBreakpoints(CLIArray) {}
 
 export function getCLIArray() {
   axios

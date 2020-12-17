@@ -2,9 +2,12 @@ import React, { useEffect } from 'react'
 import UserPreferencesEdit from './UserPreferencesEdit'
 import { getUserData } from '../../../state/actions/index.js'
 import { connect } from 'react-redux'
+
 const UserPreferencesList = props => {
   useEffect(() => {
     props.getUserData()
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   console.log(props)
