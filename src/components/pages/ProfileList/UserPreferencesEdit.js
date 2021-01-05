@@ -22,7 +22,7 @@ export default function UserPreferencesEdit(props) {
       <div
         className="details"
         style={{
-          color: '#EDF4E1',
+          color: '#05386B;',
           display: 'flex',
           justifyContent: 'space-evenly',
           flexWrap: 'wrap',
@@ -39,7 +39,7 @@ export default function UserPreferencesEdit(props) {
           }}
         >
           {'Minimum Population:    '}
-          {user.minPopulation}{' '}
+          {user.minPopulation}
         </CardBody>
 
         <CardBody
@@ -65,7 +65,7 @@ export default function UserPreferencesEdit(props) {
           }}
         >
           {'Minimum Rent:    '}
-          {user.minRent}
+          {user.minRent}$
         </CardBody>
 
         <CardBody
@@ -78,7 +78,7 @@ export default function UserPreferencesEdit(props) {
           }}
         >
           {'Maximum Rent:    '}
-          {user.maxRent}
+          {user.maxRent}$
         </CardBody>
 
         <CardBody
@@ -91,7 +91,7 @@ export default function UserPreferencesEdit(props) {
           }}
         >
           {'Minimum House Cost:   '}
-          {user.minHouseCost}
+          {user.minHouseCost}$
         </CardBody>
 
         <CardBody
@@ -104,7 +104,7 @@ export default function UserPreferencesEdit(props) {
           }}
         >
           {'Maximum House Cost:   '}
-          {user.maxHouseCost}
+          {user.maxHouseCost}$
         </CardBody>
 
         <CardBody
@@ -117,7 +117,7 @@ export default function UserPreferencesEdit(props) {
           }}
         >
           {'Cost of Living:    '}
-          {user.costOfLiving}
+          {user.costOfLiving}$
         </CardBody>
       </div>
     </div>
